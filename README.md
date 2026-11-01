@@ -57,7 +57,7 @@ ai-lab/
 ├── .gitignore                     # Build and system artifact exclusions
 │
 ├── LAB1/                          # LAB 1: Graph Search & Linear Regression
-│   ├── README.md                  # Lab 1 formal report (Aim, Algorithm, Outputs, Conclusion)
+│   ├── aim_objective_algo.md      # Lab 1 formal report (Aim, Objectives, Algorithm, Outputs, Conclusion)
 │   ├── BFS.cpp                    # Breadth-First Search
 │   ├── DFS.cpp                    # Depth-First Search
 │   ├── Linear_regression.cpp      # Multivariate Linear Regression
@@ -65,7 +65,7 @@ ai-lab/
 │   └── screenshots/               # Terminal execution screenshot PNGs
 │
 ├── LAB2/                          # LAB 2: Heuristic & Informed Search
-│   ├── README.md                  # Lab 2 formal report
+│   ├── aim_objective_algo.md      # Lab 2 formal report
 │   ├── Astar.cpp                  # A* Search using Priority Queue
 │   ├── AO*.cpp                    # AO* Search for AND-OR Graphs
 │   ├── Hillclimb.cpp              # Hill Climbing local optimization
@@ -73,13 +73,13 @@ ai-lab/
 │   └── screenshots/
 │
 ├── LAB3/                          # LAB 3: Logistic Regression & Classification
-│   ├── README.md                  # Lab 3 formal report
+│   ├── aim_objective_algo.md      # Lab 3 formal report
 │   ├── logistic_regression.cpp    # Binary classification with Sigmoid & Log-Loss
 │   ├── outputs/
 │   └── screenshots/
 │
 ├── LAB4/                          # LAB 4: Classical AI & Backtracking
-│   ├── README.md                  # Lab 4 formal report
+│   ├── aim_objective_algo.md      # Lab 4 formal report
 │   ├── 8puzzlebfs.cpp             # 8-Puzzle solver using BFS state space
 │   ├── 8queens.cpp                # 8-Queens solver using Backtracking
 │   ├── tictactoe.cpp              # Interactive 2-Player Tic-Tac-Toe
@@ -87,26 +87,26 @@ ai-lab/
 │   └── screenshots/
 │
 ├── LAB5/                          # LAB 5: Adversarial Game Search
-│   ├── README.md                  # Lab 5 formal report
+│   ├── aim_objective_algo.md      # Lab 5 formal report
 │   ├── Minmax.cpp                 # Minimax Algorithm for Tic-Tac-Toe
 │   ├── outputs/
 │   └── screenshots/
 │
 ├── LAB6/                          # LAB 6: Neural Networks (Perceptron)
-│   ├── README.md                  # Lab 6 formal report
+│   ├── aim_objective_algo.md      # Lab 6 formal report
 │   ├── singlelayerneuralnetwork.cpp # Single Layer Perceptron for Boolean AND
 │   ├── outputs/
 │   └── screenshots/
 │
 ├── LAB7/                          # LAB 7: Knowledge Representation & Inference
-│   ├── README.md                  # Lab 7 formal report
+│   ├── aim_objective_algo.md      # Lab 7 formal report
 │   ├── forwardChaining.cpp        # Forward Chaining inference engine
 │   ├── backwardChaining.cpp       # Backward Chaining inference engine
 │   ├── outputs/
 │   └── screenshots/
 │
 └── LAB8/                          # LAB 8: Evolutionary Computation
-    ├── README.md                  # Lab 8 formal report
+    ├── aim_objective_algo.md      # Lab 8 formal report
     ├── genetic_algorithm.cpp      # Genetic Algorithm for function optimization
     ├── outputs/
     └── screenshots/
@@ -118,14 +118,14 @@ ai-lab/
 
 | Lab | Title & Focus | Source File(s) | Documentation Report | Output Screenshot |
 | :-: | :--- | :--- | :-: | :-: |
-| **LAB 1** | Uninformed Search & Linear Regression | [BFS.cpp](LAB1/BFS.cpp)<br>[DFS.cpp](LAB1/DFS.cpp)<br>[Linear_regression.cpp](LAB1/Linear_regression.cpp) | [LAB 1 Report](LAB1/README.md) | [Screenshot](LAB1/screenshots/lab1_bfs_output.png) |
-| **LAB 2** | Informed Heuristic Search | [Astar.cpp](LAB2/Astar.cpp)<br>[`AO*.cpp`](LAB2/AO*.cpp)<br>[Hillclimb.cpp](LAB2/Hillclimb.cpp) | [LAB 2 Report](LAB2/README.md) | [Screenshot](LAB2/screenshots/lab2_astar_output.png) |
-| **LAB 3** | Supervised Learning: Logistic Regression | [logistic_regression.cpp](LAB3/logistic_regression.cpp) | [LAB 3 Report](LAB3/README.md) | [Screenshot](LAB3/screenshots/lab3_logistic_regression_output.png) |
-| **LAB 4** | Classical AI Search & Games | [8puzzlebfs.cpp](LAB4/8puzzlebfs.cpp)<br>[8queens.cpp](LAB4/8queens.cpp)<br>[tictactoe.cpp](LAB4/tictactoe.cpp) | [LAB 4 Report](LAB4/README.md) | [Screenshot](LAB4/screenshots/lab4_8puzzle_output.png) |
-| **LAB 5** | Adversarial Game Search (Minimax) | [Minmax.cpp](LAB5/Minmax.cpp) | [LAB 5 Report](LAB5/README.md) | [Screenshot](LAB5/screenshots/lab5_minmax_output.png) |
-| **LAB 6** | Artificial Neural Networks (Perceptron) | [singlelayerneuralnetwork.cpp](LAB6/singlelayerneuralnetwork.cpp) | [LAB 6 Report](LAB6/README.md) | [Screenshot](LAB6/screenshots/lab6_singlelayerneuralnetwork_output.png) |
-| **LAB 7** | Inference Engines (Chaining) | [forwardChaining.cpp](LAB7/forwardChaining.cpp)<br>[backwardChaining.cpp](LAB7/backwardChaining.cpp) | [LAB 7 Report](LAB7/README.md) | [Screenshot](LAB7/screenshots/lab7_forward_chaining_output.png) |
-| **LAB 8** | Genetic & Evolutionary Algorithms | [genetic_algorithm.cpp](LAB8/genetic_algorithm.cpp) | [LAB 8 Report](LAB8/README.md) | [Screenshot](LAB8/screenshots/lab8_genetic_algorithm_output.png) |
+| **LAB 1** | Uninformed Search & Linear Regression | [BFS.cpp](LAB1/BFS.cpp)<br>[DFS.cpp](LAB1/DFS.cpp)<br>[Linear_regression.cpp](LAB1/Linear_regression.cpp) | [LAB 1 Report](LAB1/aim_objective_algo.md) | [Screenshot](LAB1/screenshots/lab1_bfs_output.png) |
+| **LAB 2** | Informed Heuristic Search | [Astar.cpp](LAB2/Astar.cpp)<br>[`AO*.cpp`](LAB2/AO*.cpp)<br>[Hillclimb.cpp](LAB2/Hillclimb.cpp) | [LAB 2 Report](LAB2/aim_objective_algo.md) | [Screenshot](LAB2/screenshots/lab2_astar_output.png) |
+| **LAB 3** | Supervised Learning: Logistic Regression | [logistic_regression.cpp](LAB3/logistic_regression.cpp) | [LAB 3 Report](LAB3/aim_objective_algo.md) | [Screenshot](LAB3/screenshots/lab3_logistic_regression_output.png) |
+| **LAB 4** | Classical AI Search & Games | [8puzzlebfs.cpp](LAB4/8puzzlebfs.cpp)<br>[8queens.cpp](LAB4/8queens.cpp)<br>[tictactoe.cpp](LAB4/tictactoe.cpp) | [LAB 4 Report](LAB4/aim_objective_algo.md) | [Screenshot](LAB4/screenshots/lab4_8puzzle_output.png) |
+| **LAB 5** | Adversarial Game Search (Minimax) | [Minmax.cpp](LAB5/Minmax.cpp) | [LAB 5 Report](LAB5/aim_objective_algo.md) | [Screenshot](LAB5/screenshots/lab5_minmax_output.png) |
+| **LAB 6** | Artificial Neural Networks (Perceptron) | [singlelayerneuralnetwork.cpp](LAB6/singlelayerneuralnetwork.cpp) | [LAB 6 Report](LAB6/aim_objective_algo.md) | [Screenshot](LAB6/screenshots/lab6_singlelayerneuralnetwork_output.png) |
+| **LAB 7** | Inference Engines (Chaining) | [forwardChaining.cpp](LAB7/forwardChaining.cpp)<br>[backwardChaining.cpp](LAB7/backwardChaining.cpp) | [LAB 7 Report](LAB7/aim_objective_algo.md) | [Screenshot](LAB7/screenshots/lab7_forward_chaining_output.png) |
+| **LAB 8** | Genetic & Evolutionary Algorithms | [genetic_algorithm.cpp](LAB8/genetic_algorithm.cpp) | [LAB 8 Report](LAB8/aim_objective_algo.md) | [Screenshot](LAB8/screenshots/lab8_genetic_algorithm_output.png) |
 
 ---
 

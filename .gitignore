@@ -1,0 +1,20 @@
+# Compiled binaries and object files
+*.o
+*.obj
+*.out
+*.exe
+*.app
+a.out
+
+# macOS system files
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# IDE and Editor configurations
+.vscode/
+.idea/
+*.swp
+*.swo
+*~

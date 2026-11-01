@@ -1,0 +1,23 @@
+Generation: 1 Best: 11110 Fitness: 900
+Generation: 2 Best: 11110 Fitness: 900
+Generation: 3 Best: 11111 Fitness: 961
+Generation: 4 Best: 11111 Fitness: 961
+Generation: 5 Best: 11111 Fitness: 961
+Generation: 6 Best: 11111 Fitness: 961
+Generation: 7 Best: 11111 Fitness: 961
+Generation: 8 Best: 11111 Fitness: 961
+Generation: 9 Best: 11111 Fitness: 961
+Generation: 10 Best: 11111 Fitness: 961
+Generation: 11 Best: 11111 Fitness: 961
+Generation: 12 Best: 11111 Fitness: 961
+Generation: 13 Best: 11111 Fitness: 961
+Generation: 14 Best: 11111 Fitness: 961
+Generation: 15 Best: 11111 Fitness: 961
+Generation: 16 Best: 11111 Fitness: 961
+Generation: 17 Best: 11111 Fitness: 961
+Generation: 18 Best: 11111 Fitness: 961
+Generation: 19 Best: 11111 Fitness: 961
+Generation: 20 Best: 11111 Fitness: 961
+
+Best Solution: 31
+Maximum Fitness: 961

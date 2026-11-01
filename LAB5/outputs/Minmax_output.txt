@@ -1,0 +1,27 @@
+You = X
+Computer = O
+  |   |  
+---------
+  |   |  
+---------
+  |   |  
+---------
+Enter row (0-2): Enter column (0-2): X |   |  
+---------
+  | O |  
+---------
+  |   |  
+---------
+Enter row (0-2): Enter column (0-2): X | X | O
+---------
+  | O |  
+---------
+  |   |  
+---------
+Enter row (0-2): Enter column (0-2): X | X | O
+---------
+X | O |  
+---------
+O |   |  
+---------
+Computer wins!

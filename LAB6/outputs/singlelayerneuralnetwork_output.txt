@@ -1,0 +1,9 @@
+Training completed
+Weights: [0.2 0.1]
+Bias: -0.2
+
+Predictions:
+[0 0] -> 0
+[0 1] -> 0
+[1 0] -> 0
+[1 1] -> 1

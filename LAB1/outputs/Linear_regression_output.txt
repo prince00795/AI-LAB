@@ -1,0 +1,15 @@
+Iteration: 0 Cost: 90000
+Iteration: 1000 Cost: 1.12947e-08
+Iteration: 2000 Cost: 1.12946e-08
+Iteration: 3000 Cost: 1.12946e-08
+Iteration: 4000 Cost: 1.12945e-08
+Iteration: 5000 Cost: 1.12945e-08
+Iteration: 6000 Cost: 1.12944e-08
+Iteration: 7000 Cost: 1.12944e-08
+Iteration: 8000 Cost: 1.12944e-08
+Iteration: 9000 Cost: 1.12943e-08
+
+Final Parameters:
+w1 = 0.199999
+w2 = 0.000351105
+b = 8.88845e-05

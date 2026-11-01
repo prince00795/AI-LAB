@@ -1,0 +1,3 @@
+AO* Algorithm
+Solution: A B D E 
+Cost: 6

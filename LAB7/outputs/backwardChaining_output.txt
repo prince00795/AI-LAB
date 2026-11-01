@@ -1,0 +1,6 @@
+Checking: E
+Checking: D
+Checking: C
+A is a known fact
+B is a known fact
+Goal E is proved

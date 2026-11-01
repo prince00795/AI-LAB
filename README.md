@@ -1,187 +1,182 @@
 # Artificial Intelligence Laboratory (AI-LAB)
+### Academic Session 2024–2025 | 5th Semester (Section A & B)
 
-[![C++](https://img.shields.io/badge/Language-C%2B%2B17-blue.svg)](https://isocpp.org/)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![AI Laboratory](https://img.shields.io/badge/Course-Artificial%20Intelligence%20Lab-success.svg)](#)
+[![C++17](https://img.shields.io/badge/Language-C%2B%2B17-blue.svg)](https://isocpp.org/)
+[![Status](https://img.shields.io/badge/Status-Complete%20Submission-success.svg)](#)
+[![Class](https://img.shields.io/badge/Class-5th%20Sem%20(A%20%26%20B)-orange.svg)](#)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
-A comprehensive repository containing practical laboratory implementations of fundamental and advanced Artificial Intelligence algorithms, search heuristics, game playing techniques, machine learning models, knowledge representation inference engines, and evolutionary algorithms in C++.
+A complete, structured laboratory submission repository for the **Artificial Intelligence Laboratory**, implemented in C++17. Designed and organized in strict compliance with the laboratory submission guidelines issued for **5th Semester Sections A & B**.
 
 ---
 
-## 👥 Student & Group Information
+## 👥 Group Information & Cover Page Summary
 
 > [!IMPORTANT]
-> **This repository and laboratory work belongs to the group with Enrollment Numbers:**
-> - **Enrollment No. 25**
+> **This laboratory submission belongs to the group with Enrollment Numbers:**
+> - **Enrollment No. 25** (Prince Raj - 2024BITE025)
 > - **Enrollment No. 22**
 > - **Enrollment No. 11**
 > - **Enrollment No. 71**
 > - **Enrollment No. 45**
 
----
-
-## 📚 Table of Contents
-
-- [Repository Overview](#-repository-overview)
-- [Lab Directory & Topics Summary](#-lab-directory--topics-summary)
-- [Detailed Lab Breakdown](#-detailed-lab-breakdown)
-  - [LAB 1: Graph Search & Linear Regression](#lab-1-graph-search--linear-regression)
-  - [LAB 2: Heuristic & Informed Search](#lab-2-heuristic--informed-search)
-  - [LAB 3: Logistic Regression & Classification](#lab-3-logistic-regression--classification)
-  - [LAB 4: Classical AI & Backtracking](#lab-4-classical-ai--backtracking)
-  - [LAB 5: Adversarial Search & Game Playing](#lab-5-adversarial-search--game-playing)
-  - [LAB 6: Neural Networks (Perceptron)](#lab-6-neural-networks-perceptron)
-  - [LAB 7: Knowledge Representation & Rule Inference](#lab-7-knowledge-representation--rule-inference)
-  - [LAB 8: Genetic & Evolutionary Algorithms](#lab-8-genetic--evolutionary-algorithms)
-- [Prerequisites & Build Instructions](#-prerequisites--build-instructions)
-  - [Compilation Examples](#compilation-examples)
-- [License](#-license)
+For detailed member profiles and individual contributions, see:
+- 📄 [COVER_PAGE.md](file:///Users/princeraj/Downloads/ai-lab/COVER_PAGE.md)
+- 👥 [GROUP_MEMBERS.md](file:///Users/princeraj/Downloads/ai-lab/GROUP_MEMBERS.md)
+- 📘 [AI_LAB_COMPLETE_REPORT.md](file:///Users/princeraj/Downloads/ai-lab/AI_LAB_COMPLETE_REPORT.md) *(Consolidated Complete Record Book)*
 
 ---
 
-## 🔍 Repository Overview
+## ✅ Compliance with Submission Guidelines
 
-This repository organizes AI laboratory experiments across 8 dedicated modules (`LAB1` through `LAB8`). Each folder contains standalone, well-documented C++ source implementations designed for clean understanding of algorithmic mechanisms without heavy external dependencies.
+| # | Submission Guideline Requirement | Implementation in this Repository | Status |
+| :-: | :--- | :--- | :-: |
+| **1** | **Create a separate folder for your group** | Dedicated folder structure organized as `ai-lab/` with modular sub-folders `LAB1` through `LAB8`. | ✅ Complete |
+| **2** | **Include all completed lab experiments (Lab 1 onwards)** | Includes all 8 laboratories (15 distinct programs) from Lab 1 through Lab 8. | ✅ Complete |
+| **•** | *Lab number and title* | Explicitly defined in all reports and code headers. | ✅ Complete |
+| **•** | *Aim and objectives* | Formal aim & detailed learning objectives specified for every lab. | ✅ Complete |
+| **•** | *Algorithm/steps* | Step-by-step pseudo-code and algorithmic logic documented for each. | ✅ Complete |
+| **•** | *Source code* | Fully implemented, formatted, and verified C++17 code files. | ✅ Complete |
+| **•** | *Output screenshots* | High-resolution terminal screenshots rendered in `LAB<N>/screenshots/` + raw output logs in `LAB<N>/outputs/`. | ✅ Complete |
+| **•** | *Result and conclusion* | Detailed analysis of convergence, optimality, and concluding remarks. | ✅ Complete |
+| **3** | **Ensure all files are properly named and organized** | Clean, intuitive naming conventions (`BFS.cpp`, `Astar.cpp`, `Minmax.cpp`, etc.). | ✅ Complete |
+| **4** | **Mention names and roll numbers of all group members** | Documented on [COVER_PAGE.md](COVER_PAGE.md) and [GROUP_MEMBERS.md](GROUP_MEMBERS.md). | ✅ Complete |
+| **5** | **Submit complete group folder through Google Classroom** | Repository ready for direct upload or zipped export for Google Classroom. | ✅ Ready |
+
+---
+
+## 📂 Repository Directory Layout
 
 ```
 ai-lab/
-├── LAB1/
-│   ├── BFS.cpp                    # Breadth-First Search graph traversal
-│   ├── DFS.cpp                    # Depth-First Search graph traversal
-│   └── Linear_regression.cpp      # Multivariate Linear Regression using Gradient Descent
-├── LAB2/
-│   ├── AO*.cpp                    # AO* Algorithm for AND-OR graphs
-│   ├── Astar.cpp                  # A* Heuristic Search using Priority Queue
-│   └── Hillclimb.cpp              # Hill Climbing local optimization
-├── LAB3/
-│   └── logistic_regression.cpp    # Logistic Regression binary classifier (Log-Loss)
-├── LAB4/
-│   ├── 8puzzlebfs.cpp             # 8-Puzzle problem solver via state-space BFS
-│   ├── 8queens.cpp                # 8-Queens problem using Backtracking
-│   └── tictactoe.cpp              # Interactive 2-Player Tic-Tac-Toe
-├── LAB5/
-│   └── Minmax.cpp                 # Minimax Algorithm for optimal game moves
-├── LAB6/
-│   └── singlelayerneuralnetwork.cpp # Single Layer Perceptron for Boolean Logic (AND)
-├── LAB7/
+├── COVER_PAGE.md                  # Formal submission cover page
+├── GROUP_MEMBERS.md               # Group member details and contributions
+├── AI_LAB_COMPLETE_REPORT.md      # Consolidated laboratory record manual
+├── README.md                      # Main repository index and navigation
+├── LICENSE                        # MIT License
+├── .gitignore                     # Build and system artifact exclusions
+│
+├── LAB1/                          # LAB 1: Graph Search & Linear Regression
+│   ├── README.md                  # Lab 1 formal report (Aim, Algorithm, Outputs, Conclusion)
+│   ├── BFS.cpp                    # Breadth-First Search
+│   ├── DFS.cpp                    # Depth-First Search
+│   ├── Linear_regression.cpp      # Multivariate Linear Regression
+│   ├── outputs/                   # Raw terminal text execution logs
+│   └── screenshots/               # Terminal execution screenshot PNGs
+│
+├── LAB2/                          # LAB 2: Heuristic & Informed Search
+│   ├── README.md                  # Lab 2 formal report
+│   ├── Astar.cpp                  # A* Search using Priority Queue
+│   ├── AO*.cpp                    # AO* Search for AND-OR Graphs
+│   ├── Hillclimb.cpp              # Hill Climbing local optimization
+│   ├── outputs/
+│   └── screenshots/
+│
+├── LAB3/                          # LAB 3: Logistic Regression & Classification
+│   ├── README.md                  # Lab 3 formal report
+│   ├── logistic_regression.cpp    # Binary classification with Sigmoid & Log-Loss
+│   ├── outputs/
+│   └── screenshots/
+│
+├── LAB4/                          # LAB 4: Classical AI & Backtracking
+│   ├── README.md                  # Lab 4 formal report
+│   ├── 8puzzlebfs.cpp             # 8-Puzzle solver using BFS state space
+│   ├── 8queens.cpp                # 8-Queens solver using Backtracking
+│   ├── tictactoe.cpp              # Interactive 2-Player Tic-Tac-Toe
+│   ├── outputs/
+│   └── screenshots/
+│
+├── LAB5/                          # LAB 5: Adversarial Game Search
+│   ├── README.md                  # Lab 5 formal report
+│   ├── Minmax.cpp                 # Minimax Algorithm for Tic-Tac-Toe
+│   ├── outputs/
+│   └── screenshots/
+│
+├── LAB6/                          # LAB 6: Neural Networks (Perceptron)
+│   ├── README.md                  # Lab 6 formal report
+│   ├── singlelayerneuralnetwork.cpp # Single Layer Perceptron for Boolean AND
+│   ├── outputs/
+│   └── screenshots/
+│
+├── LAB7/                          # LAB 7: Knowledge Representation & Inference
+│   ├── README.md                  # Lab 7 formal report
 │   ├── forwardChaining.cpp        # Forward Chaining inference engine
-│   └── backwardChaining.cpp       # Backward Chaining goal-driven inference
-├── LAB8/
-│   └── genetic_algorithm.cpp      # Genetic Algorithm for function optimization
-├── .gitignore                     # Build & system artifact exclusions
-└── README.md                      # Project documentation and details
+│   ├── backwardChaining.cpp       # Backward Chaining inference engine
+│   ├── outputs/
+│   └── screenshots/
+│
+└── LAB8/                          # LAB 8: Evolutionary Computation
+    ├── README.md                  # Lab 8 formal report
+    ├── genetic_algorithm.cpp      # Genetic Algorithm for function optimization
+    ├── outputs/
+    └── screenshots/
 ```
 
 ---
 
-## 📋 Lab Directory & Topics Summary
+## 🔬 Master Experiment Index
 
-| Lab | File | Algorithm / Topic | Description |
-| :--- | :--- | :--- | :--- |
-| **LAB 1** | `BFS.cpp` | Breadth-First Search | Explores level-by-level using a FIFO queue |
-| **LAB 1** | `DFS.cpp` | Depth-First Search | Explores branch depth first using an iterative LIFO stack |
-| **LAB 1** | `Linear_regression.cpp` | Linear Regression | Multivariate gradient descent for price prediction |
-| **LAB 2** | `Astar.cpp` | A* Search Algorithm | Optimal graph search using $f(n) = g(n) + h(n)$ |
-| **LAB 2** | `AO*.cpp` | AO* Search Algorithm | Evaluates AND-OR graphs to find minimum cost solution subgraphs |
-| **LAB 2** | `Hillclimb.cpp` | Hill Climbing | Local search optimization finding the peak of an objective function |
-| **LAB 3** | `logistic_regression.cpp` | Logistic Regression | Binary classification with Sigmoid activation and Log Loss |
-| **LAB 4** | `8puzzlebfs.cpp` | 8-Puzzle Problem | BFS state space search to reach target sliding puzzle configuration |
-| **LAB 4** | `8queens.cpp` | 8-Queens Problem | Constraint satisfaction & backtracking to place 8 non-attacking queens |
-| **LAB 4** | `tictactoe.cpp` | Tic-Tac-Toe Game | 2-player interactive board game with win/draw validation |
-| **LAB 5** | `Minmax.cpp` | Minimax Algorithm | Adversarial search finding optimal moves by maximizing utility |
-| **LAB 6** | `singlelayerneuralnetwork.cpp` | Single Layer Perceptron | Perceptron weight update rule learning Boolean AND truth table |
-| **LAB 7** | `forwardChaining.cpp` | Forward Chaining | Data-driven inference engine deriving new facts from rules |
-| **LAB 7** | `backwardChaining.cpp` | Backward Chaining | Goal-driven deduction verifying sub-goals recursively |
-| **LAB 8** | `genetic_algorithm.cpp` | Genetic Algorithm | Maximizes $f(x) = x^2$ via tournament selection, crossover, and mutation |
+| Lab | Title & Focus | Source File(s) | Documentation Report | Output Screenshot |
+| :-: | :--- | :--- | :-: | :-: |
+| **LAB 1** | Uninformed Search & Linear Regression | [BFS.cpp](LAB1/BFS.cpp)<br>[DFS.cpp](LAB1/DFS.cpp)<br>[Linear_regression.cpp](LAB1/Linear_regression.cpp) | [LAB 1 Report](LAB1/README.md) | [Screenshot](LAB1/screenshots/lab1_bfs_output.png) |
+| **LAB 2** | Informed Heuristic Search | [Astar.cpp](LAB2/Astar.cpp)<br>[`AO*.cpp`](LAB2/AO*.cpp)<br>[Hillclimb.cpp](LAB2/Hillclimb.cpp) | [LAB 2 Report](LAB2/README.md) | [Screenshot](LAB2/screenshots/lab2_astar_output.png) |
+| **LAB 3** | Supervised Learning: Logistic Regression | [logistic_regression.cpp](LAB3/logistic_regression.cpp) | [LAB 3 Report](LAB3/README.md) | [Screenshot](LAB3/screenshots/lab3_logistic_regression_output.png) |
+| **LAB 4** | Classical AI Search & Games | [8puzzlebfs.cpp](LAB4/8puzzlebfs.cpp)<br>[8queens.cpp](LAB4/8queens.cpp)<br>[tictactoe.cpp](LAB4/tictactoe.cpp) | [LAB 4 Report](LAB4/README.md) | [Screenshot](LAB4/screenshots/lab4_8puzzle_output.png) |
+| **LAB 5** | Adversarial Game Search (Minimax) | [Minmax.cpp](LAB5/Minmax.cpp) | [LAB 5 Report](LAB5/README.md) | [Screenshot](LAB5/screenshots/lab5_minmax_output.png) |
+| **LAB 6** | Artificial Neural Networks (Perceptron) | [singlelayerneuralnetwork.cpp](LAB6/singlelayerneuralnetwork.cpp) | [LAB 6 Report](LAB6/README.md) | [Screenshot](LAB6/screenshots/lab6_singlelayerneuralnetwork_output.png) |
+| **LAB 7** | Inference Engines (Chaining) | [forwardChaining.cpp](LAB7/forwardChaining.cpp)<br>[backwardChaining.cpp](LAB7/backwardChaining.cpp) | [LAB 7 Report](LAB7/README.md) | [Screenshot](LAB7/screenshots/lab7_forward_chaining_output.png) |
+| **LAB 8** | Genetic & Evolutionary Algorithms | [genetic_algorithm.cpp](LAB8/genetic_algorithm.cpp) | [LAB 8 Report](LAB8/README.md) | [Screenshot](LAB8/screenshots/lab8_genetic_algorithm_output.png) |
 
 ---
 
-## 🔬 Detailed Lab Breakdown
+## 🛠️ How to Compile and Execute
 
-### LAB 1: Graph Search & Linear Regression
-- **`BFS.cpp`**: Demonstrates unweighted graph exploration starting from node `'A'` utilizing an `std::queue` and an `std::set` for visited states. Guarantees shortest path in unweighted graphs.
-- **`DFS.cpp`**: Implements depth-first traversal using an explicit `std::stack` for robust traversal without deep recursion call-stack overhead.
-- **`Linear_regression.cpp`**: Implements multiple linear regression with two features (square footage, bedrooms) to predict housing prices using batch gradient descent and mean squared error (MSE).
-
-### LAB 2: Heuristic & Informed Search
-- **`Astar.cpp`**: Computes shortest path from start node `'A'` to goal node `'D'` using a priority queue (min-heap). Balances path cost $g(n)$ and heuristic estimate $h(n)$.
-- **`AO*.cpp`**: Implements heuristic search over AND-OR graph structures where tasks require either solving any one branch (OR) or all dependent sub-branches (AND).
-- **`Hillclimb.cpp`**: Local search optimizer iteratively stepping towards neighboring states with higher evaluation scores until reaching local/global peak.
-
-### LAB 3: Logistic Regression & Classification
-- **`logistic_regression.cpp`**: Binary classification using the sigmoid activation function $\sigma(z) = \frac{1}{1 + e^{-z}}$, log-loss cost function, and gradient descent updates for weight $w$ and bias $b$.
-
-### LAB 4: Classical AI & Backtracking
-- **`8puzzlebfs.cpp`**: Models the 3x3 sliding tile puzzle state space. Discovers the sequence of tile swaps needed to transform a scrambled puzzle into the solved state.
-- **`8queens.cpp`**: Backtracking solver placing 8 queens on an 8x8 chessboard such that no two queens share the same row, column, or diagonal.
-- **`tictactoe.cpp`**: Complete terminal-based Tic-Tac-Toe implementation with board rendering and win/tie condition checks.
-
-### LAB 5: Adversarial Search & Game Playing
-- **`Minmax.cpp`**: Implements the classic Minimax algorithm for decision making in two-player zero-sum games. Evaluates recursive future states to select the optimal move against an optimal adversary.
-
-### LAB 6: Neural Networks (Perceptron)
-- **`singlelayerneuralnetwork.cpp`**: Models a single artificial neuron (Perceptron) with step activation. Iteratively adjusts weights and bias to linearly separate and learn the Boolean AND logic function.
-
-### LAB 7: Knowledge Representation & Rule Inference
-- **`forwardChaining.cpp`**: Starts from known facts (data-driven) and applies propositional Horn clauses to infer new conclusions until a fixed point is reached.
-- **`backwardChaining.cpp`**: Starts from a hypothesis/goal (goal-driven) and works backwards, checking whether all necessary preconditions can be satisfied by known facts or other rules.
-
-### LAB 8: Genetic & Evolutionary Algorithms
-- **`genetic_algorithm.cpp`**: Evolutionary search algorithm optimizing the objective function $f(x) = x^2$. Employs a population of 5-bit binary chromosomes, tournament selection, single-point crossover, and bit-flip mutation over successive generations.
-
----
-
-## 🛠️ Prerequisites & Build Instructions
-
-### Prerequisites
-- Modern C++ compiler supporting **C++17** or higher (`g++`, `clang++`, or MSVC).
-- Git.
-
-### Compilation Examples
-
-You can compile any experiment using `g++` with C++17 support:
+All programs are implemented in standard C++17 without external library dependencies:
 
 ```bash
-# Clone the repository
-git clone https://github.com/prince00795/AI-LAB.git
-cd AI-LAB
+# 1. Compile and run LAB 1 (BFS)
+g++ -std=c++17 LAB1/BFS.cpp -o LAB1/BFS && ./LAB1/BFS
 
-# Compile and run LAB 1: Breadth-First Search
-g++ -std=c++17 LAB1/BFS.cpp -o LAB1_BFS && ./LAB1_BFS
+# 2. Compile and run LAB 2 (A* Search)
+g++ -std=c++17 LAB2/Astar.cpp -o LAB2/Astar && ./LAB2/Astar
 
-# Compile and run LAB 2: A* Search
-g++ -std=c++17 LAB2/Astar.cpp -o LAB2_Astar && ./LAB2_Astar
+# 3. Compile and run LAB 2 (AO* Search)
+g++ -std=c++17 "LAB2/AO*.cpp" -o LAB2/AOStar && ./LAB2/AOStar
 
-# Compile and run LAB 2: AO* Search (quote filename due to special character)
-g++ -std=c++17 "LAB2/AO*.cpp" -o LAB2_AOStar && ./LAB2_AOStar
+# 4. Compile and run LAB 3 (Logistic Regression)
+g++ -std=c++17 LAB3/logistic_regression.cpp -o LAB3/LogReg && ./LAB3/LogReg
 
-# Compile and run LAB 4: 8-Queens Problem
-g++ -std=c++17 LAB4/8queens.cpp -o LAB4_8queens && ./LAB4_8queens
+# 5. Compile and run LAB 4 (8-Queens)
+g++ -std=c++17 LAB4/8queens.cpp -o LAB4/8queens && ./LAB4/8queens
 
-# Compile and run LAB 5: Minimax Algorithm
-g++ -std=c++17 LAB5/Minmax.cpp -o LAB5_Minmax && ./LAB5_Minmax
+# 6. Compile and run LAB 5 (Minimax AI)
+g++ -std=c++17 LAB5/Minmax.cpp -o LAB5/Minmax && ./LAB5/Minmax
 
-# Compile and run LAB 6: Perceptron Neural Network
-g++ -std=c++17 LAB6/singlelayerneuralnetwork.cpp -o LAB6_NN && ./LAB6_NN
+# 7. Compile and run LAB 6 (Perceptron Neural Network)
+g++ -std=c++17 LAB6/singlelayerneuralnetwork.cpp -o LAB6/Perceptron && ./LAB6/Perceptron
 
-# Compile and run LAB 8: Genetic Algorithm
-g++ -std=c++17 LAB8/genetic_algorithm.cpp -o LAB8_GA && ./LAB8_GA
+# 8. Compile and run LAB 7 (Forward Chaining)
+g++ -std=c++17 LAB7/forwardChaining.cpp -o LAB7/FC && ./LAB7/FC
+
+# 9. Compile and run LAB 8 (Genetic Algorithm)
+g++ -std=c++17 LAB8/genetic_algorithm.cpp -o LAB8/GA && ./LAB8/GA
 ```
 
 ---
 
-## 📜 Group Members / Enrollment Numbers
+## 📦 Creating Submission Package for Google Classroom
 
-| S.No | Enrollment Number | Role / Contribution |
-| :---: | :---: | :--- |
-| 1 | **25** | AI Lab Implementation & Experimentation |
-| 2 | **22** | AI Lab Implementation & Experimentation |
-| 3 | **11** | AI Lab Implementation & Experimentation |
-| 4 | **71** | AI Lab Implementation & Experimentation |
-| 5 | **45** | AI Lab Implementation & Experimentation |
+To prepare the folder for submission on Google Classroom:
+
+```bash
+# Navigate to the parent directory and zip the entire group submission folder
+cd /Users/princeraj/Downloads
+zip -r AI_Lab_Group_25_22_11_71_45.zip ai-lab -x "ai-lab/.git/*"
+```
+The generated `.zip` or uncompressed `ai-lab` folder can then be attached and turned in directly to Google Classroom.
 
 ---
 
-## 📄 License
+## 📜 License
 
-This repository is available under the [MIT License](LICENSE).
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.

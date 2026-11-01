@@ -1,0 +1,43 @@
+
+  |   |  
+--+---+--
+  |   |  
+--+---+--
+  |   |  
+
+Player X, enter row (0-2): Player X, enter column (0-2): 
+X |   |  
+--+---+--
+  |   |  
+--+---+--
+  |   |  
+
+Player O, enter row (0-2): Player O, enter column (0-2): 
+X |   |  
+--+---+--
+O |   |  
+--+---+--
+  |   |  
+
+Player X, enter row (0-2): Player X, enter column (0-2): 
+X | X |  
+--+---+--
+O |   |  
+--+---+--
+  |   |  
+
+Player O, enter row (0-2): Player O, enter column (0-2): 
+X | X |  
+--+---+--
+O | O |  
+--+---+--
+  |   |  
+
+Player X, enter row (0-2): Player X, enter column (0-2): 
+X | X | X
+--+---+--
+O | O |  
+--+---+--
+  |   |  
+
+Winner: X

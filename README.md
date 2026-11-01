@@ -14,11 +14,11 @@ A complete, structured laboratory submission repository for the **Artificial Int
 
 > [!IMPORTANT]
 > **This laboratory submission belongs to the group with Enrollment Numbers:**
-> - **Enrollment No. 25** (Prince Raj - 2024BITE025)
-> - **Enrollment No. 22**
-> - **Enrollment No. 11**
-> - **Enrollment No. 71**
-> - **Enrollment No. 45**
+> - **Enrollment No. 25:** Prince Raj (Roll No: 2024BITE025)
+> - **Enrollment No. 22:** Dileep Rathour (Roll No: 2024BITE022)
+> - **Enrollment No. 11:** Hemendra Kumar (Roll No: 2024BITE011)
+> - **Enrollment No. 71:** Ravi Shanker (Roll No: 2024BITE071)
+> - **Enrollment No. 45:** Saurabh Patel (Roll No: 2024BITE045)
 
 For detailed member profiles and individual contributions, see:
 - 📄 [COVER_PAGE.md](file:///Users/princeraj/Downloads/ai-lab/COVER_PAGE.md)

@@ -21,12 +21,10 @@
 | S.No. | Student Name | Enrollment Number | University Roll Number | Department / Branch |
 | :---: | :--- | :---: | :---: | :--- |
 | 1 | **Prince Raj** | **25** | 2024BITE025 | B.Tech Information Technology |
-| 2 | **Group Member 2** *(Name)* | **22** | 2024BITE022 | B.Tech Information Technology |
-| 3 | **Group Member 3** *(Name)* | **11** | 2024BITE011 | B.Tech Information Technology |
-| 4 | **Group Member 4** *(Name)* | **71** | 2024BITE071 | B.Tech Information Technology |
-| 5 | **Group Member 5** *(Name)* | **45** | 2024BITE045 | B.Tech Information Technology |
-
-> **Note:** If member names need adjustment, please update the placeholders above directly.
+| 2 | **Dileep Rathour** | **22** | 2024BITE022 | B.Tech Information Technology |
+| 3 | **Hemendra Kumar** | **11** | 2024BITE011 | B.Tech Information Technology |
+| 4 | **Ravi Shanker** | **71** | 2024BITE071 | B.Tech Information Technology |
+| 5 | **Saurabh Patel** | **45** | 2024BITE045 | B.Tech Information Technology |
 
 ---
 

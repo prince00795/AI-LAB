@@ -20,10 +20,10 @@
 | S.No. | Student Name | Enrollment No. | University Roll No. | Branch & Semester |
 | :---: | :--- | :---: | :---: | :--- |
 | 1 | **Prince Raj** | **25** | 2024BITE025 | B.Tech IT - 5th Sem |
-| 2 | *(Member 2 Name)* | **22** | 2024BITE022 | B.Tech IT - 5th Sem |
-| 3 | *(Member 3 Name)* | **11** | 2024BITE011 | B.Tech IT - 5th Sem |
-| 4 | *(Member 4 Name)* | **71** | 2024BITE071 | B.Tech IT - 5th Sem |
-| 5 | *(Member 5 Name)* | **45** | 2024BITE045 | B.Tech IT - 5th Sem |
+| 2 | **Dileep Rathour** | **22** | 2024BITE022 | B.Tech IT - 5th Sem |
+| 3 | **Hemendra Kumar** | **11** | 2024BITE011 | B.Tech IT - 5th Sem |
+| 4 | **Ravi Shanker** | **71** | 2024BITE071 | B.Tech IT - 5th Sem |
+| 5 | **Saurabh Patel** | **45** | 2024BITE045 | B.Tech IT - 5th Sem |
 
 ---
 
